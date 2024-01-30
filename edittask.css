@@ -1,0 +1,50 @@
+.header{
+    background-color: rgb(147,149,211);
+    color: white;
+    padding: 10px;
+    padding-top: 10px;
+}
+.status-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.addtask{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tick{
+    margin: 0px 25px;
+}
+
+form{
+    margin: 10px 5px;
+}
+input[type=text]{
+    width:95%;
+    padding: 10px 10px;
+    margin: 15px 15px;
+    border: none;
+    border-bottom: 2px solid #8b8787;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+input[type=submit]{
+    background-color: #9395d3;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    box-shadow: 0 5px 8px 0 #9C9DAF;
+    height: 60%;
+    width: 150px;
+    padding: 20px;
+    margin-top: 15px;
+    font-size: 15px;
+}
